@@ -5,5 +5,5 @@
 
 docker-compose up
 
-起来之后，访问 localhost:3000
+起来之后，访问 localhost:10060
 
