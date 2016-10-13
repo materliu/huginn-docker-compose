@@ -9,10 +9,10 @@ services:
     ports:
       - "10061:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: fuyeshengmading
+      MYSQL_ROOT_PASSWORD: screwyou
       MYSQL_DATABASE: huginn
       MYSQL_USER: huginn
-      MYSQL_PASSWORD: fuyeshengmading
+      MYSQL_PASSWORD: screwyou
 
   huginn:
     depends_on:
@@ -29,12 +29,12 @@ services:
       MYSQL_PORT_3306_TCP_PORT: 3306
       DATABASE_NAME: huginn
       DATABASE_USERNAME: huginn
-      DATABASE_PASSWORD: fuyeshengmading
+      DATABASE_PASSWORD: screwyou
       ENABLE_INSECURE_AGENTS: "true"
       SMTP_USER_NAME: materliu
       SMTP_DOMAIM: gmail.com
       SMTP_SERVER: smtp.gmail.com
-      SMTP_PASSWORD: daohaozhesi
+      SMTP_PASSWORD: screwyou
       EMAIL_FROM_ADDRESS: materliu@gmail.com  
       TIMEZONE: Beijing
 
